@@ -31,7 +31,7 @@ h1 {
 }
 
 p {
-  margin-top: 2vw;
+  /* margin-top: 0.5vw; */
   font-size: 1.4vw;
   text-align: center;
   margin-bottom: 25vw;
@@ -44,4 +44,71 @@ h2 {
   align-items: center;
   justify-content: center;
   border-top: 2px solid black;
+}
+
+/* #todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 2px solid black;
+} */
+
+#main {
+  background-color: white;
+  margin-top: 0vw;
+  /* margin-bottomm */
+  margin-left: 20vw;
+  margin-right: 20vw;
+  /* box-sizing: border-box; */
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main div {
+  background-color: antiquewhite;
+  border-radius: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid black;
+  padding: 1vw;
+  margin-top: 2vw;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+#main h3 {
+  margin-right: 2vw;
+}
+
+.btn button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2vw;
+  background-color: green;
+  color: white;
+  border-radius: 10%;
+  padding: 0.3vw;
+}
+
+#clear {
+  background-color: red;
+}
+
+.btn input {
+  margin-right: 3vw;
+  font-size: 1.2vw;
+}
+
+#plus {
+  padding-right: 1vw;
+  padding-left: 1vw;
+  background-color: purple;
+  font-size: 1.3vw;
+  color: white;
 }
